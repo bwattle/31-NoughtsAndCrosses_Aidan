@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Noughts & Crosses - Aidan</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="code.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Noughts and Crosses</h1>
+        <h2>&nbsp;</h2>
+        <h2>Instructions
+            <br />
+            -Take turns placing either X or O
+            <br />
+            -Aim to get 3 pieces in a row, either horizontally, vertically, or diagonally
+            <br />
+            -Have fun</h2>
+        <h2>&nbsp;</h2>
+        <h2>Player 1: O
+            <br />
+            Player 2: X</h2>
+    </div>
+    <div id="Radio">
+        <input type="radio" name="fuckface" value="2 Player" id="2PlayerGM" onclick="GameMode()" />
+        2 Player Game mode
+        <br />
+        <input type="radio" name="fuckface" value="1 Player" id="1PlayerGM" />
+        1 Player Gamemode
+        <br />
+    </div>
+    <div>
+        <table class="gameboard">
+            <tr>
+                <td id="0" class="top left"></td>
+                <td id="1" class="top"></td>
+                <td id="2" class="top right"></td>
+            </tr>
+            <tr>
+                <td id="3" class="left"></td>
+                <td id="4"></td>
+                <td id="5" class="right"></td>
+            </tr>
+            <tr>
+                <td id="6" class="bottom left"></td>
+                <td id="7" class="bottom"></td>
+                <td id="8" class="bottom right"></td>
+            </tr>
+
+        </table>
+    </div>
+    <div>
+        <button id="ResetGame" onclick="Reset()">Click to Restart</button></div>
+
+</body>
+</html>
+
+
+

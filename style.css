@@ -1,0 +1,118 @@
+
+body {
+    background: #fff;
+    color: #666;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+h2 {
+    text-align: left;
+    color: #000
+}
+
+#instruction {
+    color:black;
+    position: absolute;
+    top: 150px;
+    left: 920px;
+    border: 2px black solid;
+    font-size: 30px;
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+#box {
+    width: 350px;
+    overflow: auto;
+    margin: 20px auto;
+    background: #f00;
+    padding-bottom: 3px;
+    border-radius: 3px;
+}
+
+#message {
+    background: #333;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.gameboard {
+    margin: auto;
+}
+
+    .gameboard tr td {
+        width: 100px;
+        height: 100px;
+        border: 5px solid red;
+        font-size:80px;
+        text-align:center;
+        color: black;
+    }
+
+    .gameboard tr > .top {
+        border-top: none;
+    }
+
+    .gameboard tr > .right {
+        border-right: none;
+    }
+
+    .gameboard tr > .bottom {
+        border-bottom: none;
+    }
+
+    .gameboard tr > .left {
+        border-left: none;
+    }
+
+#gameBoard li:hover, #reset:hover {
+    cursor: pointer;
+    background: #000;
+}
+
+
+.o {
+    color: green !important;
+}
+
+.x {
+    color: red !important;
+}
+.endgame {
+    display: none;
+    width: 200px;
+    top: 120px;
+    background-color: rgba(205,133,63, 0.8);
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+}
+
+.ResetGame {
+    color:black;
+    background-color: white;
+    
+}
+
+.Radio { 
+   top: 25px;
+
+}
